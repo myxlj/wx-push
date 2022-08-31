@@ -1,0 +1,19 @@
+{
+  "name": "wxpush",
+  "version": "1.0.0",
+  "description": "微信公众平台测试号推送微信消息",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "路人高",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.5"
+  }
+}
