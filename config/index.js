@@ -3,32 +3,22 @@ const config = {
      * 公众号配置
      */
     // 公众号APP_ID
-    APP_ID: "wxa222c71efe4ec2a2",
+    APP_ID: "",
 
     // 公众号APP_SECRET
-    APP_SECRET: "27131ca5a31b92a51ec1fff48faaf7e4",
+    APP_SECRET: "",
 
     // 模板消息id
-    TEMPLATE_ID: "B6_gXIurhGUssKr8_Xj9okYM2OcoN4TO7rdDHCr7DE8",
+    TEMPLATE_ID: "",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "AKuKQeAvKDQkJLx26PgB8wVEzxF-CYOBDZeOMuLpTxM",
-
-    // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-    // [{
-    //   name: "张三",
-    //   id: "wxafasdasdd-zxfvsdfd"
-    // },
-    // {
-    //   name: "李四",
-    //   id: "wxafasdasdd-zxfvsdfd"
-    // }]
+    CALLBACK_TEMPLATE_ID: "",
     USERS: [
-      {name: 're.', id: "oWrEm6GeJeWey3dU90kWT3PEuh-w"}, 
+      {name: 're.', id: ""}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "oWrEm6GeJeWey3dU90kWT3PEuh-w"}, 
+      {name: '自己',id: ""}, 
     ],
      
     /**
@@ -51,7 +41,6 @@ const config = {
     FESTIVALS: [
       {"type": "生日", "name": "老婆", "year": "1996", "date": "01-01"},
       {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "01-04"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
       {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
