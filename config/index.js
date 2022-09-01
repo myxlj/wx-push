@@ -14,11 +14,11 @@ const config = {
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "",
     USERS: [
-      {name: '_', id: "oicME6bEgJIBUfXQCm4Gw8bAA2II"}, 
+      {name: '_', id: "oicME6dbZgaSQXtg4qqB6kSaZ-E8"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "oicME6dbZgaSQXtg4qqB6kSaZ-E8"}, 
+      {name: '自己',id: "oicME6bEgJIBUfXQCm4Gw8bAA2II"}, 
     ],
      
     /**
@@ -51,9 +51,9 @@ const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2015-05-01",
+    LOVE_DATE: "2018-03-30",
     // 结婚纪念日
-    MARRY_DATE: "2020-01-04",
+    //MARRY_DATE: "2020-01-04",
 
 
     /** 每日一言 */
