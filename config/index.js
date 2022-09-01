@@ -3,22 +3,22 @@ const config = {
      * 公众号配置
      */
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wx0f3df1d4106df537",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "529b43a0e21bbb8aa6ccf6b02aac5395",
 
     // 模板消息id
-    TEMPLATE_ID: "",
+    TEMPLATE_ID: "	F2ZqFps6BO9acoAmEIn7uqN1627T07IbVgXknnI4DMI",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "",
     USERS: [
-      {name: 're.', id: ""}, 
+      {name: 'ㅤ', id: "oicME6bEgJIBUfXQCm4Gw8bAA2II"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: ""}, 
+      {name: '自己',id: "oicME6bEgJIBUfXQCm4Gw8bAA2II"}, 
     ],
      
     /**
@@ -28,9 +28,9 @@ const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "江苏",
+    PROVINCE: "北京",
     // 所在城市
-    CITY: "苏州",
+    CITY: "北京",
 
     /** 重要节日相关 */
 
